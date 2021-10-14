@@ -5,14 +5,14 @@ import logo from '../../assets/header/logo.png'
 const Header = ()=>{
     return(
         <header>
-        <nav>
-            <div>
+        <nav className="navbar">
+            <div className="logo">
                 <figure>
                     <img src={logo} alt="NIX-logo" />
                 </figure>
             </div>
 
-            <div>
+            <div className="navbar__links">
                 <ul>
                     <li>home</li>
                     <li>services</li>
@@ -23,7 +23,7 @@ const Header = ()=>{
                 </ul>
             </div>
             <div>
-                <button>contact us now</button>
+               <button>contact us now</button>
             </div>
             </nav>
         </header>
